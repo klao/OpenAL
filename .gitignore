@@ -1,5 +1,6 @@
 *.swp
 *~
+/.stack-work
 /.cabal-sandbox
 /dist
 /examples/**/*.exe
