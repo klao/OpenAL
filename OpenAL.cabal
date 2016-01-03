@@ -81,6 +81,8 @@ library
   ghc-options: -Wall
   if os(windows) && flag(UseNativeWindowsLibraries)
     extra-libraries: OpenAL32
+    extra-lib-dirs:
+      c:/Windows/System32
   else
     if os(darwin) || os(ios)
       frameworks: OpenAL
